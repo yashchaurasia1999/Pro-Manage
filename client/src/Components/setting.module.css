@@ -1,0 +1,71 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 43vh;
+  justify-content: center;
+}
+.wrapper>p{
+  font-family:'open sans',sans-serif;
+  font-size: 22px;
+  font-weight: 650;
+  line-height: 2.5em;
+  letter-spacing: 0em;
+
+}
+.inputField {
+    max-width: 400px;
+    width: 25vw;
+    background:#FFFFFF;
+    margin: 10px 0;
+    height: 40px;
+    border-radius: 5px;
+    display: grid;
+    font-weight: 400;
+    grid-template-columns: 12% 76% 12%;
+    padding: 0 0.4rem;
+    margin-top: 15px;
+    position: relative;
+    border: 1.38px solid #D0D0D0
+  }
+
+ 
+  .inputField img {
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    transition: 0.5s;
+    font-size: 0.2rem;
+    padding-top:2px;
+    
+  }
+  
+  .inputField>.eye{
+    text-align: center;
+    line-height: 55px;
+    color:gray;
+    transition: 0.5s;
+    font-size: 0.2rem;
+    padding-top:10px;
+  }
+  .inputField input {
+    font-family: "open sans";
+    /* background: #FFFFFF; */
+    outline: none;
+    border: none;
+    line-height: 1;
+    /* font-weight: 600; */
+    font-size: 1.1rem;
+    color:#828282;
+
+    /* color: #333; */
+  }
+  .updateBtn button{
+    width:100%;
+    background-color: #17A2B8;
+    height:5vh;
+    border-radius: 55px;
+    border:none;
+    color: #FFFFFF;
+    margin-top: 20px;
+    cursor: pointer;
+  }

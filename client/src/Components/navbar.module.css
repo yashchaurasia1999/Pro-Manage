@@ -1,0 +1,41 @@
+/* navbar.module.css */
+.withEffect{
+    background: #4391ED1A;
+}
+.withoutEffect{
+    background-color: #ffffff;
+}
+.wrapper{
+    border-right: 1px solid #EDF5FE;
+    width: 13vw;
+}
+.heading{
+    width:100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navLink{
+    width: 100%;
+    height:70vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+}
+.navLink>p{
+    cursor: pointer;
+}
+.logout{
+    width: 100%;
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#CF3636;
+}
+.logout>p,.logout>img{
+    cursor: pointer;
+}

@@ -1,0 +1,239 @@
+.todoContainer{
+    height:75vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.backlog,.todo{
+    height:75vh;
+    background: #EEF2F5;
+    width: 21vw;
+    border-radius: 10px;
+    
+}
+.options{
+    position:absolute;
+    border-radius: 12px;
+    height:10vh;
+    width: 6vw;
+    box-shadow: 0px 2px 22px 0px #7E7A7A40;
+    background: #FFFFFF;
+
+}
+.options>p{
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding:2px 0px 2px 10px;
+    color: #000000;
+
+}
+.todoHeading{
+    height:10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+.heading{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.collapseIcon{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    height:20px;
+   
+}
+.todoHeading>p{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 15px;
+    
+
+}
+.todoHeading>img{
+    margin-right:20px;
+}
+.todoList{
+    height:63vh;
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-y: scroll;
+    
+}
+.sections{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.singleTodo{
+    height:auto;
+    width: 90%;
+    background-color:#FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 30px;
+   
+}
+.singleTodo>.priority{
+    margin-left: 10px;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    color: #707070;
+    
+}
+.priority>p{
+    line-height: 3;
+}
+.title{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000000;
+    margin-left: 10px;;
+}
+.priority{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priority>.menu{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.sections>.progress,.done,.backlogSec{
+    background: #EEECEC;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #767575;
+    border: 1px solid black;
+}
+
+
+.checkList{
+    display: flex;
+    justify-content: space-between;  
+    
+}
+.checkList>p{
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 4;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000000;
+    margin-left: 10px;
+}
+.checkList>img{
+    height:25px;
+    width:30px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.listOfPriority{
+    /* height:10vh;
+    width:100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.date>p{
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 12px;
+    padding: 5px;
+    letter-spacing: 0em;
+    border: none;
+    color:#FFFFFF;
+}
+.sections{
+    height: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    padding: 5px, 10px, 5px, 10px;
+    border-radius: 8px;
+    gap: 10px;
+
+}
+.listOfPriority>.date{
+    background: #CF3636;
+    height: auto;
+    width:auto;
+    border-radius: 8px;
+    border: none;
+    gap: 10px;
+}
+.sections>.progress,.done,.backlogSec>p{
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    padding: 5px;
+}
+.sectionss>.progress,.done,.backlogSec{
+    background: #EEECEC;
+    height: auto;
+    width:auto;
+    border-radius: 8px;
+    border: none;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.inputField>.inputArea{
+    border-radius: 12px;
+    width:100%;
+    height:4vh;
+    border: 1px solid #E2E2E2;
+    padding-left: 30px;
+
+}
+.inputField{
+    position: relative;
+    margin: 15px;
+}
+.inputField>.check{
+    position: absolute;
+    left:10px;
+    top:8px;
+}
+.todoList::-webkit-scrollbar {
+    width: 8px; /* width of the scrollbar */
+  }
+  
+  .todoList::-webkit-scrollbar-thumb {
+    background: #8DAAB9CC;
+ /* color of the thumb */
+    border-radius: 4px; /* roundness of the thumb */
+  }

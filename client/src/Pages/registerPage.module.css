@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.loginImg{
+    width: 60vw;
+    height:100vh;
+    background: #17A2B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loginFields{
+    width: 40vw;
+    height:100vh;
+}

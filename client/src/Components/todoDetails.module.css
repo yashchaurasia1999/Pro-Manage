@@ -1,0 +1,116 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    padding-left: 30px;
+}
+.header>p{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 700;
+    /* line-height: 24px; */
+}
+.singleTodo{
+    height:90vh;
+    display: flex;
+    justify-content: center;
+}
+.todoContainer{
+    height:60vh;
+    width: 40vw;
+    border-radius: 12px;
+    background: #FFFFFF;
+    border: 2px solid #EDF5FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todoes{
+    height:50vh;
+    width:35vw ;
+    /* background-color: aliceblue; */
+}
+.priority>p{
+    color: #707070;
+    font-family: "Poppins";
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.title{
+    font-family: "Poppins";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    padding-top: 5px;
+}
+.checkListHeading>p{
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000000;
+    padding-top: 20px;
+}
+.checkListInput{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0px;
+    
+}
+.checkList>.inputField{
+ 
+    display: grid;
+    grid-template-columns: 20% 70% 10%; 
+    margin: 12px 0px;
+  }
+  .check{
+    position: absolute;
+    z-index: 1;
+    height:15px;
+    width: 15px;
+    margin: 10px;
+  }
+  .inputField>img{
+    position: absolute;
+    z-index: 1;
+    right:500px;
+  }
+  .inputField>.inputArea{
+    position: relative;
+    border-radius: 12px;
+    width:35vw;
+    height:5vh;
+    padding-left: 30px;
+    border: 1px solid #E2E2E2
+  }
+  .dueDate{
+    display: flex;
+  }
+  .dueDate>p:nth-child(2){
+    background: #CF3636;
+    border-radius: 8px;
+    gap: 10px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }

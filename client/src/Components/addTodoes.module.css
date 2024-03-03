@@ -1,0 +1,157 @@
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  width: 35vw;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.title>input{
+    font-family: "open sans";
+    background: #FFFFFF;
+    outline: none;
+    line-height: 1;
+    /* font-weight: 600; */
+    font-size: 1.1rem;
+    color:#828282;
+}
+.selectPriority{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin:20px 0px;
+
+}
+.selectPriority>.high,.low{
+  box-sizing: border-box;
+  border: 1px solid #E2E2E2;
+  height:31px;
+  width:25%;
+  border-radius: 8px;
+  gap: 8px;
+  padding: 3px 0px;
+  margin: 0px 10px;
+}
+.selectPriority>.moderate{
+  box-sizing: border-box;
+  border: 1px solid #E2E2E2;
+  height:75%;
+  width:30%;
+  border-radius: 8px;
+  gap: 8px;
+  padding: 3px 0px; 
+  margin: 0px 3px;
+}
+.checkList{
+  height: 800px;
+  /* overflow-x: auto; */
+  overflow-y: scroll;
+  width: 100%;
+  
+}
+.title>input{
+  box-shadow: 0px 1px 2px 0px #4D40551A;
+  border-radius: 4px;
+  gap: 12px;
+  border: 1px solid #4D40551A;
+  padding: 7px;
+  box-sizing: border-box;
+}
+.modal>p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.modalButtons {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+}
+.saveBtn{
+  box-shadow: 0px 2px 12px 0px #82698C33;
+  border-radius: 12px;
+  background: #17A2B8;
+  border: none;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color:#FFFFFF;
+
+}
+.cancelBtn{
+  border: 1px solid #CF3636;
+  border-radius: 12px;
+  color:#CF3636;
+  box-shadow: 0px 2px 12px 0px #82698C33;
+  font-family: 'Poppins';
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.selectDate{
+  width: 70%;
+  color: #707070;
+  border: 1px solid #E2E2E2;
+  box-shadow: 0px 2px 12px 0px #82698C33;
+  border-radius: 12px;
+
+}
+.checkList>.inputField{
+ 
+  display: grid;
+  grid-template-columns: 20% 60% 20%; 
+  margin: 10px 0px;
+}
+
+.check{
+  position: absolute;
+  z-index: 1;
+  height:15px;
+  width: 15px;
+  margin: 10px;
+}
+.inputField>img{
+  position: relative;
+  z-index: 1;
+  left: 370px;
+  top:10px;
+}
+.inputField>.inputArea{
+  position: relative;
+  border-radius: 12px;
+  width:33vw;
+  height:5vh;
+  padding-left: 30px;
+  border: 1px solid #E2E2E2
+}
+
+.modalButtons button, .selectDate{
+  margin: 0 10px;
+  padding: 8px 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,113 @@
+.heading{
+  display: flex;
+  align-items:end;
+  height:25vh;
+  justify-content: center;
+}
+.containerField{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    /* align-content: space-around; */
+    height:40vh;
+
+    flex-direction: column;
+
+
+}
+
+.inputField {
+    max-width: 400px;
+    width: 25vw;
+    background:#FFFFFF;
+    margin: 10px 0;
+    height: 40px;
+    border-radius: 5px;
+    display: grid;
+    font-weight: 400;
+    grid-template-columns: 12% 76% 12%;
+    padding: 0 0.4rem;
+    margin-top: 15px;
+    position: relative;
+    border: 1.38px solid #D0D0D0
+  }
+
+ 
+  .inputField img {
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    transition: 0.5s;
+    font-size: 0.2rem;
+    padding-top:2px;
+    
+  }
+  
+  .inputField input {
+    font-family: "open sans";
+    background: #FFFFFF;
+    outline: none;
+    border: none;
+    line-height: 1;
+    /* font-weight: 600; */
+    font-size: 1.1rem;
+    color:#828282;
+
+    /* color: #333; */
+  }
+  .registerBtn button{
+    width:100%;
+    background-color: #17A2B8;
+    height:5vh;
+    border-radius: 55px;
+    border:none;
+    color: #FFFFFF;
+
+  }
+  .loginBtn button{
+    width:25vw;
+    background-color: #FFFFFF;
+    height:5vh;
+    border-radius: 55px;
+    border:1px solid #17A2B8;
+    color: #17A2B8;
+  }
+  .registerBtn,
+  .loginBtn {
+      display: flex;
+      justify-content: center;
+      width: 25vw;
+      margin:20px 0px
+  }
+  
+  /* Add these styles to center the buttons vertically */
+  .buttons {
+      display: flex;
+      height: 35vh;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+ 
+      
+  }
+  .headingLogin{
+    display: flex;
+    align-items:end;
+    height:35vh;
+    justify-content: center;
+  }
+.buttonsLogin{
+  display: flex;
+  height: 25vh;
+  flex-direction: column;
+  align-items: center;
+}
+.containerFieldLogin{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  /* align-content: space-around; */
+  height:25vh;
+
+  flex-direction: column; 
+}

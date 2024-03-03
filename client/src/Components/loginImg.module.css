@@ -1,0 +1,27 @@
+.coverBackground{
+    line-height: 80px;
+}
+.logoText{
+    line-height: 30px;
+}
+.logoText > p:nth-child(1) {
+    font-family: "Open Sans";
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    
+}
+.logoText > p:nth-child(2) {
+    font-family: "Open Sans";
+    text-align:center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    
+    /* margin-right:90px; */
+}
+.coverBackground .logo{
+    height:30vh;
+    width:13vw;
+}

@@ -1,0 +1,74 @@
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10.91px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-content:space-evenly;
+    justify-content: center;
+    flex-direction: column;
+    height:20vh;
+    width:20vw;
+  }
+  .modal>p{
+    font-family: "Noto Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+
+  }
+ 
+  .modalButtons button:nth-child(1) {
+    margin: 5px;
+    padding:10px 10px 10px 80px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 2px 12px 0px #82698C33;
+    background: #17A2B8;
+    color:#FFFFFF;
+    border-radius: 12px;
+    border: none;
+    
+  }
+  .modalButtons button:nth-child(2) {
+    margin: 5px;
+    padding:10px 10px 10px 90px;
+    
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 2px 12px 0px #82698C33;
+    background: #FFFFFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#CF3636;
+    border: 1px solid #CF3636;
+
+    /* padding: 17px, 4px, 17px, 4px; */
+    border-radius: 12px;
+    /* gap: 10px; */
+    
+  }
