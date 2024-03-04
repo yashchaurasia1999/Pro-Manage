@@ -5,6 +5,7 @@ const dotenv=require('dotenv')
 const userAuth=require('./routes/userAuth')
 const taskRoutes=require('./routes/taskRoutes')
 const cors=require('cors')
+const path=require('path')
 // const MongoClient = require('mongodb').MongoClient;
 
 dotenv.config()
@@ -14,6 +15,24 @@ app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended:false}))
 app.use('/',userAuth)
 app.use('/',taskRoutes)
+const ___dirname1=path.resolve()
+// ...................Deployment............................
+
+if(process.env.NODE_ENV==='production')
+{
+    app.use(express.static(path.join(___dirname1,'/client/build')))
+    app.get('*',(req,res)=>{
+        res.sendFile(path.resolve(___dirname1,'client','build','index.html'))
+    })
+}
+else
+{
+    app.get('/',(req,res)=>{
+        res.send('API is running successfully')
+    })
+}
+
+// ...................Deployment............................
 
 app.get('/',(req,res)=>{
     res.json({
